@@ -6,7 +6,6 @@ angular
         if (window.location.port === '9000') {
             $sailsProvider.url = window.location.origin.replace('9000', '1337');
         }
-
         <% if (ngRoute) { %>
         $routeProvider
         .when('/', {
@@ -24,7 +23,7 @@ angular
             console.info('message', message);
         });
 
-    $sails.get('/message/subscribe').success(function(data) {
+        $sails.get('/message/subscribe').success(function(data) {
             console.log('success', data);
         }).error(function(data){
             console.log('error', data);

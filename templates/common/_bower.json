@@ -6,6 +6,7 @@
     "json3": "~3.2.6",
     "socket.io-client": "~0.9.16",
     "bower-sails.io": "~0.0.1",
+    "angular-sails" : "~1.0.4",
     "es5-shim": "~2.1.0"<% if (bootstrap) { %>,
     "jquery": "~1.11.0"<% if (compassBootstrap) { %>,
     "bootstrap-sass-official": "~3.1.0"<% } else { %>,

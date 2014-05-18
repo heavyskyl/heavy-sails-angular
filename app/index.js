@@ -214,6 +214,8 @@ HeavySailsGenerator.prototype.askForModules = function askForModules() {
       this.env.options.ngRoute = true;
     }
 
+    angMods.push("'ngSails");
+
     if (angMods.length) {
       this.env.options.angularDeps = '\n    ' + angMods.join(',\n    ') + '\n  ';
     }
