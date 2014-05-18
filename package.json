@@ -1,0 +1,65 @@
+{
+  "name": "generator-heavy-sails-angular",
+  "version": "0.8.0",
+  "description": "Yeoman generator for AngularJS for SailsJS server",
+  "keywords": [
+    "yeoman-generator",
+    "scaffold",
+    "framework",
+    "component",
+    "front-end",
+    "app",
+    "angular",
+    "sails",
+    "sailsjs",
+    "sails-angular"
+  ],
+  "author": {
+    "name": "Vladimir Tkachenko"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yeoman/generator-angular"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chalk": "~0.4.0",
+    "wiredep": "~1.0.0",
+    "yeoman-generator": "~0.16.0"
+  },
+  "peerDependencies": {
+    "generator-karma": ">=0.6.0",
+    "yo": ">=1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-conventional-changelog": "~1.0.0",
+    "grunt-release": "~0.6.0",
+    "load-grunt-tasks": "~0.3.0",
+    "marked": "~0.2.8",
+    "mocha": "*",
+    "semver": "~2.2.1",
+    "underscore.string": "~2.3.1"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "BSD"
+    }
+  ],
+  "readme": "https://github.com/heavyskyl/heavy-sails-angular twitter- https://twitter.com/V_Tkachenko_UA",
+  "readmeFilename": "readme.md",
+  "bugs": {
+    "url": "https://github.com/yeoman/generator-angular/issues"
+  },
+  "homepage": "https://github.com/yeoman/generator-angular",
+  "_id": "generator-heavy-sails-angular@0.0.0",
+  "_from": "generator-heavy-sails-angular@"
+}
