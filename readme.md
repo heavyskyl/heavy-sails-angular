@@ -1,8 +1,9 @@
 Yeoman generator for AngularJS with SailsJS server - lets you quickly set up a project with sensible defaults and best practises.
 
 This is a sailsjs adapter of yeoman -angular-generator
+(https://github.com/yeoman/generator-angular);
 
-Twitter - https://twitter.com/V_Tkachenko_UA
+Twitter: https://twitter.com/V_Tkachenko_UA
 Please subscribe to a updates.
 
 ## Usage
@@ -28,13 +29,17 @@ Now you can use build-dev and build grunt tasks that should upload your angular 
 
 in SailsJS layout include index.html of your application
 e.g.:
+
+```
 //layout.ejs
 <% include ../assets/my-application/index.html %>
 
 //some-other-layout.ejs
 <% include ../assets/some-other-app/index.html %>
 
+```
 So, heavy-sails-angular generator supports multi-yeoman clients applications for SailsJS server.
+Also it supports socket-io connection with sails as a $sails angular provider out-of-the-fox.
 
 You can develop your app as a normal angular-generator application, but then deploy it to a sails server.
 ( see example - https://github.com/heavyskyl/SailsJSProject/tree/angular-switch/testProject ).
@@ -49,7 +54,7 @@ Run `grunt`, `build`, `build-dev` for building and `grunt serve` for preview
 
 Available generators:
 
-* [heavy-sails-angular](#app) (aka [angular:app](#app))
+* [heavy-sails-angular](#app) (aka [heavy-sails-angular:app](#app))
 * [heavy-sails-angular:controller](#controller)
 * [heavy-sails-angular:directive](#directive)
 * [heavy-sails-angular:filter](#filter)
