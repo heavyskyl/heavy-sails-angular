@@ -130,7 +130,7 @@ HeavySailsGenerator.prototype.askForCompass = function askForCompass() {
   this.prompt([{
     type : 'string',
     name : 'assets',
-    message : 'Please input a path to your sails js assets directory'
+    message : 'Please input a path to your sails js assets directory (e.g ../assets/my_app_name)'
   },
   {
     type: 'confirm',
