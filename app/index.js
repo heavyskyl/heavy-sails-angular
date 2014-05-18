@@ -47,15 +47,15 @@ var HeavySailsGenerator = module.exports = function HeavySailsGenerator(args, op
     this.env.options.coffee = this.options.coffee;
   }
 
-  this.hookFor('angular:common', {
+  this.hookFor('heavy-sails-angular:common', {
     args: args
   });
 
-  this.hookFor('angular:main', {
+  this.hookFor('heavy-sails-angular:main', {
     args: args
   });
 
-  this.hookFor('angular:controller', {
+  this.hookFor('heavy-sails-angular:controller', {
     args: args
   });
 
