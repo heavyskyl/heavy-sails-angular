@@ -83,6 +83,11 @@ var HeavySailsGenerator = module.exports = function HeavySailsGenerator(args, op
       enabledComponents.push('angular-route/angular-route.js');
     }
 
+    enabledComponents.push('socket.io-client/dist/socket.io.min.js');
+    enabledComponents.push('bower-sails.io/sails.io.js');
+    enabledComponents.push('angular-sails/dist/angular-sails.js');
+
+
     this.invoke('karma:app', {
       options: {
         coffee: this.options.coffee,
@@ -214,7 +219,7 @@ HeavySailsGenerator.prototype.askForModules = function askForModules() {
       this.env.options.ngRoute = true;
     }
 
-    angMods.push("'ngSails");
+    angMods.push("'ngSails'");
 
     if (angMods.length) {
       this.env.options.angularDeps = '\n    ' + angMods.join(',\n    ') + '\n  ';
