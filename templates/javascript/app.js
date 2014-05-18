@@ -1,20 +1,23 @@
 'use strict';
 
 angular
-  .module('<%= scriptAppName %>', [<%= angularModules %>])<% if (ngRoute) { %>
-    .config(function ($sailsProvider, $routeProvider) {
+  .module('<%= scriptAppName %>', [<%= angularModules %>])
+    .config(function ($sailsProvider <% if (ngRoute) { %>, $routeProvider <% } %>) {
         if (window.location.port === '9000') {
             $sailsProvider.url = window.location.origin.replace('9000', '1337');
         }
 
-    $routeProvider
-    .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-        })
-    .otherwise({
-        redirectTo: '/'
+        <% if (ngRoute) { %>
+        $routeProvider
+        .when('/', {
+            templateUrl: 'views/main.html',
+            controller: 'MainCtrl'
+            })
+        .otherwise({
+            redirectTo: '/'
         });
+        <% } %>
+
     }).run(function($sails) {
 
         $sails.on('message', function (message) {
