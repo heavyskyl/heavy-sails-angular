@@ -15,12 +15,12 @@
     "sails-angular"
   ],
   "author": {
-    "name": "Vladimir Tkachenko"
+    "name": "Vladimir Tkachenko (https://twitter.com/V_Tkachenko_UA)"
   },
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yeoman/generator-angular"
+    "url": "https://github.com/heavyskyl/heavy-sails-angular"
   },
   "scripts": {
     "test": "mocha"
@@ -57,9 +57,9 @@
   "readme": "https://github.com/heavyskyl/heavy-sails-angular twitter- https://twitter.com/V_Tkachenko_UA",
   "readmeFilename": "readme.md",
   "bugs": {
-    "url": "https://github.com/yeoman/generator-angular/issues"
+    "url": "https://github.com/heavyskyl/heavy-sails-angular/issues"
   },
-  "homepage": "https://github.com/yeoman/generator-angular",
+  "homepage": ""https://github.com/heavyskyl/heavy-sails-angular",
   "_id": "generator-heavy-sails-angular@0.0.0",
   "_from": "generator-heavy-sails-angular@"
 }
