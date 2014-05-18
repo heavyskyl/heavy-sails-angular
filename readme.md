@@ -22,7 +22,7 @@ Run `yo heavy-sails-angular`, optionally passing an app name:
 yo heavy-sails-angular [app-name]
 ```
 
-input sailsjs assets pholder ( e.g. : ../../assets/my-application );
+input sailsjs assets folder ( e.g. : ../../assets/my-application );
 Now you can use build-dev and build grunt tasks that should upload your angular application to a sails server
 ( assets folder )
 
