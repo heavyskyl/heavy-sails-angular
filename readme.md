@@ -4,7 +4,7 @@ This is a sailsjs adapter of yeoman -angular-generator
 (https://github.com/yeoman/generator-angular);
 
 Twitter: https://twitter.com/V_Tkachenko_UA
-Please subscribe to a updates.
+Please subscribe to updates.
 
 ## Usage
 
@@ -39,7 +39,7 @@ e.g.:
 
 ```
 So, heavy-sails-angular generator supports multi-yeoman clients applications for SailsJS server.
-Also it supports socket-io connection with sails as a $sails angular provider out-of-the-fox.
+Also it supports socket-io connection with sails as a $sails angular provider out-of-the-box.
 
 You can develop your app as a normal angular-generator application, but then deploy it to a sails server.
 ( see example - https://github.com/heavyskyl/SailsJSProject/tree/angular-switch/testProject ).
